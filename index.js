@@ -26,7 +26,7 @@ const options = [
     '-b:a', '128k',
     '-ar', 128000 / 4,
     '-f', 'flv',
-    `rtmps://live-api-s.facebook.com:443/rtmp/FB-122188392404126798-0-AbwHW-IPP661QUJJ`,
+    `rtmps://live-api-s.facebook.com:443/rtmp/YOUR_RTMP_KEY`,
 ];
 
 const ffmpegProcess=spawn('ffmpeg',options);
